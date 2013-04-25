@@ -1,0 +1,41 @@
+/*
+* 
+* style.css 
+* CSS        : Level 3
+* Created on : Thu, 24 Apr 2013 10:43:20 GMT
+* Author     : danz (@rdanzkusuma)
+* Description: 
+* 
+*/
+
+@import "reset";
+
+@import "var/variables";
+@import "mixin/mixins";
+
+/* REMOVE THIS WHEN FIRST USAGE */
+html, body, #root{
+	display: $bl;
+	position: $rel;
+	width: $one-whole;
+	height: $one-whole;
+	background-color: $white;
+}
+
+#root{
+	img{
+		position: $abs;
+		top: $one-half;
+		left: $one-half;
+		margin-top: -17%;
+		margin-left: -27%;
+	}
+}
+
+#author{
+	position: $fix;
+	bottom: 20px;
+	right: 30px;
+	font-size: 11px;
+}
+/* REMOVE THIS WHEN FIRST USAGE */
